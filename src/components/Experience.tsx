@@ -6,6 +6,20 @@ const Experience = () => {
   const experiences = [
     {
       title: "SDE III",
+      company: "getreplies.ai",
+      period: "2025 July - Present",
+      location: "Bangalore, India",
+      description: "Building A.I SaaS to reach out to the customers and get the replies.",
+      responsibilities: [
+        "Full ownership of the product.",
+        "Deploying project to AWS.",
+        "Building the frontend of the product.",
+        "Building the UI/UX of the product.",
+        "Building the CI/CD pipeline of the product.",
+      ]
+    },
+    {
+      title: "SDE III",
       company: "Zolostays",
       period: "2024 - Present",
       location: "Bangalore, India",

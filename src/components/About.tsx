@@ -7,9 +7,16 @@ const About = () => {
   const timeline = [
     {
       role: "SDE III",
+      company: "getreplies.ai",
+      companyLink: "https://www.getreplies.ai/",
+      period: "2025 July - Present",
+      description: "Building A.I SaaS to reach out to the customers and get the replies."
+    },
+    {
+      role: "SDE III",
       company: "zolostays.com",
       companyLink: "https://www.zolostays.com/",
-      period: "2024 - Present",
+      period: "2024 Jan - 2025 June",
       description: "Leading full-stack development initiatives and mentoring junior developers."
     },
     {
