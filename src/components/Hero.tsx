@@ -2,6 +2,7 @@ import React from "react";
 import { FileText, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 import { TechnologyList } from './TechnologyList';
+import SocialHandleList from "./SocialHandleList";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -66,6 +67,10 @@ const Hero = () => {
               <TechnologyList technologies={technologies} />
             </p>
 
+            <div className="flex justify-center items-center mb-8">
+              <SocialHandleList />
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <button className="group bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center gap-2">
                 <FileText size={20} />
@@ -82,7 +87,11 @@ const Hero = () => {
 
               <button
                 onClick={scrollToContact}
-                className="group border-2 border-blue-600 dark:border-blue-400 text-blue-600 dark:text-blue-400 px-8 py-4 rounded-full font-semibold text-lg hover:bg-blue-600 hover:text-white dark:hover:bg-blue-400 dark:hover:text-gray-900 transform hover:scale-105 transition-all duration-300 flex items-center gap-2"
+                className="group border-2 border-blue-600 dark:border-blue-400
+                 text-blue-600 dark:text-blue-400 px-8 py-4 rounded-full font-semibold 
+                 text-lg hover:bg-blue-600 hover:text-white dark:hover:bg-blue-400 
+                 dark:hover:text-gray-900 transform hover:scale-105 transition-all duration-300 
+                 flex items-center gap-2"
               >
                 <Mail size={20} />
                 Contact Me

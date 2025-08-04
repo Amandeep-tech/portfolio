@@ -117,3 +117,19 @@
   display: inline-block;
   transform-origin: 70% 70%;
 }
+
+@keyframes moveUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+.move-up {
+  animation: moveUp 0.5s ease-in-out forwards;
+  animation-delay: 0.2s;
+  transform-origin: center;
+}
+
