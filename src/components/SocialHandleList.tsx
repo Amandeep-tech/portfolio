@@ -21,7 +21,7 @@ const socialLinks = [
 
 const SocialHandleList = () => {
   return (
-    <div className="flex gap-4">
+    <div className="flex gap-4 flex-wrap justify-center items-center">
       {socialLinks.map((link) => (
         <a
           href={link.href}
@@ -36,7 +36,7 @@ const SocialHandleList = () => {
 						  dark:hover:text-gray-900 transform hover:scale-105 transition-all duration-300 
 							flex items-center gap-2"
           >
-            <span className="text-base">{link.label}</span>
+            <span className="text-sm sm:text-base">{link.label}</span>
           </Button>
         </a>
       ))}
