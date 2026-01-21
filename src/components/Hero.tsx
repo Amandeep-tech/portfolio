@@ -38,7 +38,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="mt-[8rem] flex items-center justify-center  dark:from-gray-900 dark:via-gray-800 dark:to-blue-900"
+      className="mt-[6rem] flex items-center justify-center  dark:from-gray-900 dark:via-gray-800 dark:to-blue-900"
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">

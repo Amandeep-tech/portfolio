@@ -66,7 +66,7 @@ const About = () => {
                       // 2. Use a public image hosting service like Imgur
                       // 3. Store the image in your project's public folder
                       // 4. Use a placeholder service temporarily
-                      src="/assets/images/myPhoto.jpeg" 
+                      src="/assets/images/myAIPhoto2.png" 
                       alt="Amandeep Singh" 
                       className="w-full h-full rounded-full object-cover"
                     />
