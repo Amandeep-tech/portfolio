@@ -98,7 +98,7 @@ const Projects = () => {
                   </a>
                   <a 
                     href={project.githubLink}
-                    target="_blank"
+                    target="blank"
                     className="group border-2 border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 px-6 py-3 rounded-lg font-semibold text-center hover:border-gray-900 dark:hover:border-gray-100 hover:text-gray-900 dark:hover:text-white transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-2"
                   >
                     <Github size={18} />

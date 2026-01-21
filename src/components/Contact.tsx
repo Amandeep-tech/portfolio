@@ -38,8 +38,8 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "amanpank8910@mail.com",
-      href: "mailto:amanpank8910@mail.com"
+      value: "amandeepinterview@gmail.com",
+      href: "mailto:amandeepinterview@gmail.com"
     },
     {
       icon: Phone,
@@ -168,6 +168,7 @@ const Contact = () => {
                   <a
                     key={index}
                     href={info.href}
+                    target='blank'
                     className="group flex items-center p-4 bg-gray-50 dark:bg-gray-800 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-200"
                   >
                     <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg flex items-center justify-center text-white">

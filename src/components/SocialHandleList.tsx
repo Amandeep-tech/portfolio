@@ -8,9 +8,9 @@ const socialLinks = [
     href: "https://www.linkedin.com/in/amandeep-singh-9241061a6/",
     label: "LinkedIn",
   },
-  { href: "mailto:amanpank8910@mail.com", label: "Email" },
+  { href: "mailto:amandeepinterview@gmail.com", label: "Email" },
   {
-    href: "https://medium.com/@ps772117",
+    href: "https://aman-deepsingh.medium.com",
     label: "Medium",
   },
   {
@@ -25,7 +25,7 @@ const SocialHandleList = () => {
       {socialLinks.map((link) => (
         <a
           href={link.href}
-          target="_blank"
+          target="blank"
           rel="noopener noreferrer"
           key={link.label}
         >

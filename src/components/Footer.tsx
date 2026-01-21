@@ -8,7 +8,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: Github, href: 'https://github.com/Amandeep-tech', label: 'GitHub' },
     { icon: Linkedin, href: 'https://www.linkedin.com/in/amandeep-singh-9241061a6/', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:amanpank8910@mail.com', label: 'Email' }
+    { icon: Mail, href: 'mailto:amandeepinterview@gmail.com', label: 'Email' }
   ];
 
   const navLinks = [
@@ -51,6 +51,7 @@ const Footer = () => {
                 <a
                   key={index}
                   href={link.href}
+                  target='blank'
                   aria-label={link.label}
                   className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-colors duration-200 group"
                 >
@@ -80,7 +81,7 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold">Contact</h3>
             <div className="space-y-2 text-gray-400">
-              <p>amanpank8910@mail.com</p>
+              <p>amandeepinterview@gmail.com</p>
               <p>+91 (779) 563 7732</p>
               <p>Available for freelance work</p>
             </div>

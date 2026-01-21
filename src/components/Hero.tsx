@@ -56,7 +56,7 @@ const Hero = () => {
             <div className="px-[2rem] sm:px-0 text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-gray-600 dark:text-gray-300 mb-8 
               leading-relaxed">
               <div className="text-blue-600 dark:text-blue-400 font-semibold mb-2">
-                Software Engineer
+                Frontend Engineer
               </div>{" "}
               <div className="text-gray-600 dark:text-gray-300 text-3xl mb-2">
                 {"(4+ YoE)"}

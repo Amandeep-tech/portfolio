@@ -86,7 +86,7 @@ const Experience = () => {
             </h2>
             <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-6"></div>
             <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-              My professional journey and growth at Zolostays
+              My professional journey and growth
             </p>
           </div>
 
