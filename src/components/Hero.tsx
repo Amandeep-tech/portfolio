@@ -75,7 +75,7 @@ const Hero = () => {
               <button className="group bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-4 rounded-full font-semibold text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 flex items-center gap-2">
                 <FileText size={20} />
                 <Link
-                  to="https://drive.google.com/file/d/1Qhep_TyPFFHmapUUE-cRo_Z9W6ndpsyX/view?usp=sharing"
+                  to="https://drive.google.com/file/d/1aog2W8_jqioH8cCQvplhZSqGEqu1Lrjw/view?usp=sharing"
                   target="_blank"
                 >
                   View Resume
